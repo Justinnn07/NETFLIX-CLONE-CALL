@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(20, 20, 20);
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__left > img {
+  width: 90px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__right > * {
+  margin: 10px;
+  font-size: x-large !important;
+}
+
+.header__left > h4 {
+  margin: 12px;
+}
