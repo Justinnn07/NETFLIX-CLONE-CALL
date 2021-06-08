@@ -3,14 +3,15 @@ import "./Home.css";
 import PlayArrowIcon from "@material-ui/icons/PlayArrow";
 import { Button } from "@material-ui/core";
 import InfoIcon from "@material-ui/icons/Info";
-const Home = () => {
+const Home = ({ title }) => {
   return (
     <div className="home">
       <div className="home__content">
-        <h3>Minority Report</h3>
+        <h3>{"Jurassic World: Camp Cretaceous"}</h3>
         <p>
-          The following npm package, @material-ui/icons, includes the 1,100+
-          official Material icons converted to SvgIcon components.
+          {
+            "Six teens attending an adventure camp on the opposite side of Isla Nublar must band together to survive when dinosaurs wreak havoc on the island."
+          }
         </p>
         <Button style={{ background: "white" }}>
           <PlayArrowIcon /> Play

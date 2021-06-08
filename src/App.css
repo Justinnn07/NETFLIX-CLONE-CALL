@@ -18,5 +18,5 @@ body::-webkit-scrollbar {
 }
 
 .app > h3 {
-  margin: 10px;
+  margin-left: 16px;
 }
